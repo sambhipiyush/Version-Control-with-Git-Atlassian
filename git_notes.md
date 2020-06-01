@@ -20,7 +20,7 @@
 
 ### Basic GIT Syntax
 
-* git [COMMAND] [--flags] [arguments]
+* git [COMMAND] [`--flags`] [arguments]
 	
 	Example: git status
 			 git status --short
@@ -33,12 +33,12 @@
 
 ### GIT Command Reading Help
 
-* git fakecommand (-p|--path) [<id>] [--] [<paths>...]
+* git fakecommand (-p|--path) [`<id>`] [`--`] [`<paths>`...]
 	* -f or --flag --> Change the command's behavior
 	* | --> OR
 	* [] --> Optional argument
 	* <> --> Placeholders, which are replaced with actual name/path/etc. when using command
-	* [<id>] --> Opional Placeholder
+	* [`<id>`] --> Opional Placeholder
 	* () --> Grouping
 	* --  --> Disambiguates the command
 	* ... --> Multiple occurances possible
@@ -46,7 +46,7 @@
 
 ### Setting Config in GIT
 
-* git config [--local|--global|--system] <key> [<value>]
+* git config [--local|--global|--system] `<key>` [`<value>`]
 	* The --system flag applies to every repository for all users on your computer.
 	* The --global flag applies to every repository that you use on your computer.
 		* git config --global user.name "sambhipiyush"
@@ -56,20 +56,21 @@
 
 ### Reading GIT Configuration
 
-* git config <key>
+* git config `<key>`
 	* git config user.name
 	* git config user.email
 
 
 ### Set preferred GIT editor
+
 * To set your preferred git editor:
 	* git config --global core.editor vim
 
 
 ## Git Locations
 
-					| 1. Working Tree --> A single commit's directories and files.
-Project Directory 	| 2. Staging Area/Index --> List of Files that are planned for next commit
+Project Directory	| 1. Working Tree --> A single commit's directories and files.
+ 					| 2. Staging Area/Index --> List of Files that are planned for next commit
 					| 3. Local Repository --> Contains all the commits that are made for the project. These are version history of the project.
 
 Remote Directory	| 4. Remote Repository --> Contains the commits of the project. It is located in Data Center or the Cloud. This is often considered the source of truth or official state of the project. 
@@ -85,16 +86,19 @@ Remote Directory	| 4. Remote Repository --> Contains the commits of the project.
 
 * git status --> To view the status of files in working tree or staging area.
 	* git status -s --> short description
+
 * git add --> To add content to the staging area, as Staged content is a part of next commit.
 	* Syntax: 
-		* git add <filename>
-		* git add <directory>
+		* git add `<filename>`
+		* git add `<directory>`
 		* git add * --> wildcard for all files
 		* git add . --> Add all untracked or modified files at once.
+
 * git commit --> Adds stages content to the local repository as a commit.
 	* Syntax:
-		* git commit <filename>
-		* git commit -m "INITIAL COMMIT" --> for short commit message.
+		* git commit `<filename>`
+		* git commit -m "INITIAL COMMIT" --> for short commit message
+
 * git log --> To view repositories commit history.
 	* Syntax:
 		* git log
@@ -118,7 +122,7 @@ A remote repository is usually a professionally managed repository that is hoste
 
 * git clone --> cmd used to create local copy of remote repository.
 	* Syntax:
-		* git clone <url/to/projectname.git> [local-project-name]
+		* git clone `<url/to/projectname.git>` [local-project-name]
 
 
 ### Get Remote Repository Information
@@ -129,7 +133,7 @@ A remote repository is usually a professionally managed repository that is hoste
 
 ### Add Remote Repository to Local Repository
 
-* git remote add <name> <url>
+* git remote add `<name>` `<url>`
 	* Example:
 		* git remote add origin https://github.com/sambhipiyush/repoa.git
 
@@ -137,8 +141,8 @@ A remote repository is usually a professionally managed repository that is hoste
 
 * git push --> Writes commits for a branch from local repository to remote repository.
 	* Syntax:
-		* git push [-u] [<repository>] [<branch>]
-			* <repository> --> can be a name (shortcut) to URL
+		* git push [-u] [`<repository>`] [`<branch>`]
+			* `<repository>` --> can be a name (shortcut) to URL
 			* -u --> track this branch (--set-upstream)
 
 1. All commits belong to a branch.
