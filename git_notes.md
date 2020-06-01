@@ -69,12 +69,12 @@
 
 ## Git Locations
 
-Project Directory	
+***Project Directory***
 > 1. Working Tree --> A single commit's directories and files.
 > 2. Staging Area/Index --> List of Files that are planned for next commit
 > 3. Local Repository --> Contains all the commits that are made for the project. These are version history of the project.
 
-Remote Directory	
+***Remote Directory***
 > 4. Remote Repository --> Contains the commits of the project. It is located in Data Center or the Cloud. This is often considered the source of truth or official state of the project. 
 
 
