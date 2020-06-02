@@ -1,6 +1,9 @@
 # Version Control with Git by Atlassian
 
-### Instructor(s) : Steve Byrnes
+#### Instructor(s) : Steve Byrnes
+
+
+## About this Course
 
 The Version Control with GIT course provides  you with a solid, hands-on foundation for understanding the Git version control system.  Git is open source software originally created by Linus Torvalds. Git manages team files for large and small projects. This allows the team to continuously improve its product. It is used by most major technology companies, and is assumed knowledge for many modern programming and IT jobs.  It is a core component of DevOps, continuous delivery pipelines and cloud-native computing. You could also use Git to manage the many continuously improving revisions of that book that you are writing. 
 
@@ -22,6 +25,6 @@ This course uses Bitbucket (bitbucket.org) as the hosted provider for remote Git
 
 #### ***Kudos!!!***
 
-Warm Regards,
-Piyush Sambhi
+Warm Regards,\
+Piyush Sambhi\
 Email: piyush.sambhi07@icloud.com
