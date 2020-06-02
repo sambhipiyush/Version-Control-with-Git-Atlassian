@@ -25,6 +25,7 @@ This course uses Bitbucket (bitbucket.org) as the hosted provider for remote Git
 
 #### ***Kudos!!!***
 
-Warm Regards,\
-Piyush Sambhi\
-Email: piyush.sambhi07@icloud.com
+Warm Regards, \
+Piyush Sambhi \
+Email: piyush.sambhi07@icloud.com \
+Git URL: https://github.com/sambhipiyush
