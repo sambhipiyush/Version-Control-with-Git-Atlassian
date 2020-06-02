@@ -1,5 +1,10 @@
 <p align="center">
   <a href="javascript:void(0)" rel="noopener">
+ <img width=200px  src="https://images.app.goo.gl/eA6TPKKjd6RHnMgj8" alt="Atlassian logo"></a>
+</p>
+
+<p align="center">
+  <a href="javascript:void(0)" rel="noopener">
  <img width=400px  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3YXEjYb_hJD9BK5Lhtn-OD12ScvFuQ4yma6OBeafXIf2aJhnQ" alt="Git logo"></a>
 </p>
 
