@@ -199,4 +199,102 @@ A remote repository is usually a professionally managed repository that is hoste
 
 ### GIT ID's
 
-* 
+#### GIT Objects
+
+* Commit - A small text file
+* Annotated Tags - A permanent reference to a commit
+* Tree - Directories and filenames in the project
+* Blob - The content of a file in the project
+
+#### GIT IDs
+
+* Git ID is the name of a GIT object
+* 40-character hexadecimal string
+* Also known as object ID, SHA-1, hash and checksum
+
+* Git IDs are SHA-1 values
+* This 40-character hexadecimal string is the result of a mathematical computation based on the content
+* Statistically speaking, the SHA-1 value is unique for a given piece of content. The exact same content will always result in the same SHA-1 value, but it is virtually impossible to find two different content files that produce the same SHA-1 value. 
+
+* CMD to create an SHA-1 for any content:
+	* Syntax: 
+		* git hash-object `<file-name>`
+
+#### References
+
+* It is a user-friendly name that points to :
+	- a commit SHA-1 hash
+	- another reference
+		- known as symbolic reference
+
+* CMD to use reference instead of SHA-1 hashes:
+	* Syntax:
+		* git show HEAD
+
+* ***Master*** is the default name of the main branch in the repository
+
+* ***Branch Label***
+	* Points to the most recent commit in the branch. That commit is commonly called the tip of the branch
+	* Implemented as References
+
+> ***Note*** the subtle difference between a branch and a branch label. All three commits belong to the master branch, even though the master branch label is only at the tip of the branch. Since a branch in Git is implemented as a tiny branch label, branches are extremely simple to implement and use very few resources.
+
+* ***HEAD*** 
+	* HEAD is a reference to the current commit
+	* It usually points to the branch label of the current branch. Because it only points to the current commit and there can only be one current commit
+	* There is only one HEAD reference in your local repository.
+
+* Appending TILDE(~) to GIT IDs and REFERENCES
+	* Referencing prior commits with the ~ and ^ characters. In git commands, the ~ character can be appended to git IDs and references to refer to prior commits.
+		* Like:
+			- ~ or ~1 --> parent
+			- ~2 or ~~ --> parent's parent
+
+* Appending CARET(^) to GIT IDs and REFERENCES
+	* Referes to a parents in a merge commit (^parentnum)
+	* ^ or ^1 --> first parent to the commit
+	* ^2 --> second parent of a merge commit
+	* ^^ --> first parent's first parent
+
+* ***Tilda and Caret*** characters can be combined arbitrarily to access any commit. Even in a tree with many branches and merges. 
+	* Example: 
+		* `HEAD~^ 2` refers to the parent's second parent
+
+
+#### TAGS
+	* Reference/Label attacked to a specific commit.
+	* Types:
+		- Lightweight Tag
+			* A simple reference to a commit.
+		- Annotated Tag
+			* A full GIT object that references
+			* Includes tag author information, tag date, tag message, the commit ID.
+			* Optionally can be signed and verified with GNU GUARD
+
+	* In general, annotated tags are recommended over lightweight tags because they are true Git objects and offer more capabilities.
+		 
+
+#### Lightweight Tag:
+	* To tag a commit with a lightweight tags:
+		* Syntax:
+			* git tag `<tagname> [<commit>]`
+	* `<commit>` defaults to HEAD
+
+
+#### Annotated Tag:
+	* To tag a commit with a annotated tags:
+		* Syntax:
+			* git tag -a [-m `<msg>` | -F `<file>`] `<tagname>` [`<commit>`]
+	* `<commit>` defaults to HEAD
+
+	* `git show` displays the tag object information followed by the commit information.
+
+#### Tags and Remote Repositories
+	* `git push` does not automatically transfer tags to the remote repository
+	* To transfer a single tag:
+		- `git push <remote> <tagname>`
+	* To transfer all your tags:
+		- `git push <remote> --tags`
+
+
+
