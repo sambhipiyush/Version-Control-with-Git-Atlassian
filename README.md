@@ -16,7 +16,7 @@ You can watch the videos and take the quizzes from your phone if you want, but t
 This course uses Bitbucket (bitbucket.org) as the hosted provider for remote Git repositories. Bitbucket is free for teams of up to 5 people, including private repositories. However, most of the knowledge that you gain in this course applies to Git itself, and you can apply this knowledge to other hosted Git providers (such as GitHub). 
 
 
-***Who is this class for:*** This course is for anyone who wants to build a strong foundational knowledge of the Git version control system. Developers and members of IT (Information Technology) are the primary audience, but anyone with interest in the topic and a solid technical aptitude should be able to succeed with the course.
+> ***Who is this class for:*** This course is for anyone who wants to build a strong foundational knowledge of the Git version control system. Developers and members of IT (Information Technology) are the primary audience, but anyone with interest in the topic and a solid technical aptitude should be able to succeed with the course.
 
 
 ## Syllabus
