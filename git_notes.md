@@ -183,18 +183,18 @@ A remote repository is usually a professionally managed repository that is hoste
 
 * Git Graphs look like:
 	
-	`* 4242139 (HEAD -> master, origin/master, origin/HEAD) Added important Shell cmds, most frequently used cmds`
-	`* a9de421 Updated and Added Random queries which were used while performing QC for UDB Test.`
-	`* 2427f2a Updated Script:`
-	`*   a1b7621 Merge branch 'master' of https://github.com/sambhipiyush/dedupe_qc_scripts`
-	`|\  `
-	`| * 2dfd595 Aesthetic Changes`
-	`| * 611e736 Aesthetic Changes`
-	`* | 042c6a4 Updated Script: Sample Message`
-	`* | 1601cf7 Updated Script: Sample Message`
-	`|/  `
-	`* 46b95ce Aesthetic changes in README.md`
-	`* 2a39c29 Added contact information in README.md file.`
+	`* 4242139 (HEAD -> master, origin/master, origin/HEAD) Added important Shell cmds, most frequently used cmds`\
+	`* a9de421 Updated and Added Random queries which were used while performing QC for UDB Test.`\
+	`* 2427f2a Updated Script:`\
+	`*   a1b7621 Merge branch 'master' of https://github.com/sambhipiyush/dedupe_qc_scripts`\
+	`|\  `\
+	`| * 2dfd595 Aesthetic Changes`\
+	`| * 611e736 Aesthetic Changes`\
+	`* | 042c6a4 Updated Script: Sample Message`\
+	`* | 1601cf7 Updated Script: Sample Message`\
+	`|/  `\
+	`* 46b95ce Aesthetic changes in README.md`\
+	`* 2a39c29 Added contact information in README.md file.`\
 	
 
 ### GIT ID's
