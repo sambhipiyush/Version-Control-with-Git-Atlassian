@@ -5,7 +5,7 @@ by Atlassian
 
 # Module 2
 
-## Title: Branching and Merging I
+#### Title: Branching and Merging I
 
 ## Git's Graph Model
 

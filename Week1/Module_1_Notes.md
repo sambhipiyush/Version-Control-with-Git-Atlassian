@@ -5,7 +5,7 @@ by Atlassian
 
 # Module 1
 
-## Title: Our First Repository
+#### Title: Our First Repository
 
 ## What is GIT?
 
