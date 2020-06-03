@@ -5,7 +5,7 @@ by Atlassian
 
 # Module 1
 
-## Title: Our First Repository
+### Title: Our First Repository
 
 ## What is GIT?
 
@@ -160,7 +160,7 @@ A remote repository is usually a professionally managed repository that is hoste
 
 # Module 2
 
-## Title: Branching and Merging I
+### Title: Branching and Merging I
 
 ## Git's Graph Model
 
@@ -460,5 +460,5 @@ A remote repository is usually a professionally managed repository that is hoste
 
 # Module 3
 
-## Title: Branching and Merging II
+### Title: Branching and Merging II
 
