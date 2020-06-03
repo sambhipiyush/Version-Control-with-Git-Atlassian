@@ -5,6 +5,8 @@ by Atlassian
 
 # Module 1
 
+## Title: Our First Repository
+
 ## What is GIT?
 
 * Git is a Distributed version control system

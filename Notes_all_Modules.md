@@ -5,6 +5,8 @@ by Atlassian
 
 # Module 1
 
+## Title: Our First Repository
+
 ## What is GIT?
 
 * Git is a Distributed version control system
@@ -157,6 +159,8 @@ A remote repository is usually a professionally managed repository that is hoste
 
 
 # Module 2
+
+## Title: Branching and Merging I
 
 ## Git's Graph Model
 
@@ -455,4 +459,6 @@ A remote repository is usually a professionally managed repository that is hoste
 
 
 # Module 3
+
+## Title: Branching and Merging II
 
