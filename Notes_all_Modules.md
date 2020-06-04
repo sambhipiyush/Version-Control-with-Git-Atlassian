@@ -462,3 +462,53 @@ A remote repository is usually a professionally managed repository that is hoste
 
 #### Title: Branching and Merging II
 
+### Resolving Merge Conflicts
+
+#### Merge conflict Overview
+
+* If you perform a merge with a merge commit, Git takes on the responsibility of combining the work of multiple branches and placing the result into a single merge commit. Git will try to do this automatically
+* There are cases where multiple branches make different changes to the same part of a file. In that case, a ***Merge Conflict*** occurs and a person needs to make a decision on how to resolve it
+* We have just seen that a merge conflict can occur if different branches change the same part of a file in different ways.
+
+* GIT automatically merges changes to different parts (HUNKS) of files.
+* ***Hunk*** --> Part of a file
+
+* Merge Strategy : https://git-scm.com/docs/merge-strategies
+
+##### Avoiding Merge Conflicts
+* Avoid making a lot of changes over a long period of time without merging
+* Smaller frequent mergers are usually the best approach
+	* It's better to create many small merge problems than one giant merge problem.
+
+* Decoupled modular code is much less likely to have merged conflicts
+* In some ways, the number and complexity of merge conflicts is a test of how modular your code is.
+
+
+#### Resolving a Merge Conflict
+
+* Resolving merge conflict between 2 branches involves 3 commits:
+	1. The tip of the current branch --> we call it "ours" or "mine"
+	1. The tip of the branch to be merged --> we call it "theirs"
+	1. A common ancestor --> we call it "merge base"
+
+* Steps to Resolve Merge Conflict:
+	1. Checkout master
+	1. Merge branch (featureX)
+		* CONFLICT - Both modified fileA.txt
+	1. Fix fileA.txt
+	1. Stage fileA.txt
+	1. Commit the merge commit
+	1. Delete the branch (featureX) label
+
+* When attempting a merge, files with conflict are modified by Git and placed in the working tree
+
+* ***Conflicted Hunk*** --> Conflicted hunks are surrounded by conflict markers <<<<<<< and >>>>>>>
+
+* ***Reading Conflict Markes***
+	* Text from HEAD commit is between <<<<<<< and =======
+	* Text from branch to be merged is between ======= and >>>>>>>
+
+
+#### Tracking Branches
+
+* 
