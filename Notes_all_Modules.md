@@ -561,19 +561,19 @@ A remote repository is usually a professionally managed repository that is hoste
 	- Origin is a shortcut for the URL to the remote repository, and master is the name of the branch on the remote repository. Because the clone just happened, these two repositories are synchronized.
 
 
-##### Q & A
+#### Q & A
 
-***QUESTION A*** What does the master label represent?
-***ANSWER A*** The master label represents the tip of the local master branch.
+***QUESTION A*** What does the master label represent?\
+***ANSWER A*** The master label represents the tip of the local master branch.\
 
-***QUESTION B*** What does the origin/master label represent?
-***ANSWER B*** The origin/master label represents the tip of the tracking branch that tracks the master branch on the remote repository.
+***QUESTION B*** What does the origin/master label represent?\
+***ANSWER B*** The origin/master label represents the tip of the tracking branch that tracks the master branch on the remote repository.\
 
-***QUESTION C*** What does the origin/HEAD label represent?
-***ANSWER C*** The origin/HEAD label represents the tip of the default branch on the remote repository. The default branch on the remote repository is the master branch.
+***QUESTION C*** What does the origin/HEAD label represent?\
+***ANSWER C*** The origin/HEAD label represents the tip of the default branch on the remote repository. The default branch on the remote repository is the master branch.\
 
-***QUESTION D*** How do you create a state with the local branch one ahead of the tracking branch?
-***ANSWER D*** If you make a commit to the local repository without pushing it to the remote repository, the local branch becomes ahead of the tracking branch. The tracking branch only knows what the remote repository knows.
+***QUESTION D*** How do you create a state with the local branch one ahead of the tracking branch?\
+***ANSWER D*** If you make a commit to the local repository without pushing it to the remote repository, the local branch becomes ahead of the tracking branch. The tracking branch only knows what the remote repository knows.\
 
 
 
