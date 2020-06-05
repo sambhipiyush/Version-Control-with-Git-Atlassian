@@ -106,7 +106,7 @@ by Atlassian
 	- Origin is a shortcut for the URL to the remote repository, and master is the name of the branch on the remote repository. Because the clone just happened, these two repositories are synchronized.
 
 
-##### Q & A
+#### Q & A
 
 ***QUESTION A*** What does the master label represent?\
 ***ANSWER A*** The master label represents the tip of the local master branch.\
